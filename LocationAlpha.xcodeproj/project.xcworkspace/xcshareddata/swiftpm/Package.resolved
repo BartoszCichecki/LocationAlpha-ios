@@ -1,0 +1,51 @@
+{
+  "originHash" : "6d2ec78a199bdde71e61e412f736aa5cb3549263d257441a347708534da054fb",
+  "pins" : [
+    {
+      "identity" : "coregpx",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vincentneo/CoreGPX",
+      "state" : {
+        "revision" : "58d9a7f7a374ec5be9913c0fe76c8fd6739749a6",
+        "version" : "0.9.4"
+      }
+    },
+    {
+      "identity" : "devicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devicekit/DeviceKit",
+      "state" : {
+        "revision" : "56b997e8a61707218f9af09f32b2a1d1806fd792",
+        "version" : "5.8.0"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms.git",
+      "state" : {
+        "revision" : "87e50f483c54e6efd60e885f7f5aa946cee68023",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "a0cb0954ecb21e4e31b0070e6ed5674e8556685a",
+        "version" : "1.6.0"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0c0290ff6b24942dadb83a929ffaaa1481df04a2",
+        "version" : "1.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}

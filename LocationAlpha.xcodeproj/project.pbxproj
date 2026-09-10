@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1E88802CFFC06F009B8E93 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1E887F2CFFC06F009B8E93 /* MessageUI.framework */; };
+		4E1E88832CFFCA25009B8E93 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E1E88822CFFCA25009B8E93 /* DeviceKit */; };
+		4E4969B72CEA6CBA0080D2B4 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 4E4969B62CEA6CBA0080D2B4 /* Collections */; };
+		4E6BB5D02CCAD4D60075DDA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6BB5CE2CCAD4D60075DDA6 /* CoreLocation.framework */; };
+		4E6BB5D82CCADEF50075DDA6 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6BB5D62CCADEF50075DDA6 /* UserNotifications.framework */; };
+		4E9FD8542CCA2F8B00251BC7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9FD8532CCA2F8B00251BC7 /* CoreBluetooth.framework */; };
+		4EF59C942D06343700981AF6 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 4EF59C932D06343700981AF6 /* CoreGPX */; };
+		4EF59C972D063C5800981AF6 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4EF59C962D063C5800981AF6 /* Algorithms */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E1E887F2CFFC06F009B8E93 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4E6BB5CD2CCAD4D60075DDA6 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
+		4E6BB5CE2CCAD4D60075DDA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E6BB5D52CCADEF50075DDA6 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		4E6BB5D62CCADEF50075DDA6 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4E9FD8412CCA2E6200251BC7 /* LocationAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9FD8532CCA2F8B00251BC7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4EF59C992D0653FD00981AF6 /* Sample 1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Sample 1.gpx"; sourceTree = "<group>"; };
+		4EF59C9A2D0653FD00981AF6 /* Sample 2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Sample 2.gpx"; sourceTree = "<group>"; };
+		4EF59C9B2D0653FD00981AF6 /* Sample 3.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Sample 3.gpx"; sourceTree = "<group>"; };
+		4EF59C9C2D065D0A00981AF6 /* Sample 4.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Sample 4.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4E9FD8562CCA302900251BC7 /* Exceptions for "LocationAlpha" folder in "LocationAlpha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 4E9FD8402CCA2E6200251BC7 /* LocationAlpha */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4E9FD8432CCA2E6200251BC7 /* LocationAlpha */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4E9FD8562CCA302900251BC7 /* Exceptions for "LocationAlpha" folder in "LocationAlpha" target */,
+			);
+			path = LocationAlpha;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E9FD83E2CCA2E6200251BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF59C942D06343700981AF6 /* CoreGPX in Frameworks */,
+				4E6BB5D82CCADEF50075DDA6 /* UserNotifications.framework in Frameworks */,
+				4E6BB5D02CCAD4D60075DDA6 /* CoreLocation.framework in Frameworks */,
+				4E1E88802CFFC06F009B8E93 /* MessageUI.framework in Frameworks */,
+				4E4969B72CEA6CBA0080D2B4 /* Collections in Frameworks */,
+				4E1E88832CFFCA25009B8E93 /* DeviceKit in Frameworks */,
+				4EF59C972D063C5800981AF6 /* Algorithms in Frameworks */,
+				4E9FD8542CCA2F8B00251BC7 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9FD8382CCA2E6200251BC7 = {
+			isa = PBXGroup;
+			children = (
+				4EF59C982D0653F000981AF6 /* GPX Samples */,
+				4E9FD8432CCA2E6200251BC7 /* LocationAlpha */,
+				4E9FD8522CCA2F8B00251BC7 /* Frameworks */,
+				4E9FD8422CCA2E6200251BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E9FD8422CCA2E6200251BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E9FD8412CCA2E6200251BC7 /* LocationAlpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E9FD8522CCA2F8B00251BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E887F2CFFC06F009B8E93 /* MessageUI.framework */,
+				4E6BB5D62CCADEF50075DDA6 /* UserNotifications.framework */,
+				4E6BB5D52CCADEF50075DDA6 /* UserNotificationsUI.framework */,
+				4E6BB5CE2CCAD4D60075DDA6 /* CoreLocation.framework */,
+				4E6BB5CD2CCAD4D60075DDA6 /* CoreLocationUI.framework */,
+				4E9FD8532CCA2F8B00251BC7 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EF59C982D0653F000981AF6 /* GPX Samples */ = {
+			isa = PBXGroup;
+			children = (
+				4EF59C992D0653FD00981AF6 /* Sample 1.gpx */,
+				4EF59C9A2D0653FD00981AF6 /* Sample 2.gpx */,
+				4EF59C9B2D0653FD00981AF6 /* Sample 3.gpx */,
+				4EF59C9C2D065D0A00981AF6 /* Sample 4.gpx */,
+			);
+			path = "GPX Samples";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E9FD8402CCA2E6200251BC7 /* LocationAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9FD84F2CCA2E6300251BC7 /* Build configuration list for PBXNativeTarget "LocationAlpha" */;
+			buildPhases = (
+				4E9FD83D2CCA2E6200251BC7 /* Sources */,
+				4E9FD83E2CCA2E6200251BC7 /* Frameworks */,
+				4E9FD83F2CCA2E6200251BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4E9FD8432CCA2E6200251BC7 /* LocationAlpha */,
+			);
+			name = LocationAlpha;
+			packageProductDependencies = (
+				4E4969B62CEA6CBA0080D2B4 /* Collections */,
+				4E1E88822CFFCA25009B8E93 /* DeviceKit */,
+				4EF59C932D06343700981AF6 /* CoreGPX */,
+				4EF59C962D063C5800981AF6 /* Algorithms */,
+			);
+			productName = LocationAlpha;
+			productReference = 4E9FD8412CCA2E6200251BC7 /* LocationAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E9FD8392CCA2E6200251BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					4E9FD8402CCA2E6200251BC7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 4E9FD83C2CCA2E6200251BC7 /* Build configuration list for PBXProject "LocationAlpha" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E9FD8382CCA2E6200251BC7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4E4969B52CEA6CBA0080D2B4 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				4E1E88812CFFCA25009B8E93 /* XCRemoteSwiftPackageReference "DeviceKit" */,
+				4EF59C922D06343700981AF6 /* XCRemoteSwiftPackageReference "CoreGPX" */,
+				4EF59C952D063C5800981AF6 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4E9FD8422CCA2E6200251BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E9FD8402CCA2E6200251BC7 /* LocationAlpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E9FD83F2CCA2E6200251BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E9FD83D2CCA2E6200251BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E9FD84D2CCA2E6300251BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G5W295L43H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E9FD84E2CCA2E6300251BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = G5W295L43H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E9FD8502CCA2E6300251BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationAlpha/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LocationAlpha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to connect to your camera event when the app is in background.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "LocationAlpha needs access to Bluetooth to connect to your camera.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is used to automatically detect and track when you are out shooting photos, even when the app is in background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used to automatically detect and track when you are out shooting photos, even when the app is in background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to automatically detect and track when you are out shooting photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "location-services bluetooth-le arm64";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartoszcichecki.locationalpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E9FD8512CCA2E6300251BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationAlpha/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LocationAlpha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to connect to your camera event when the app is in background.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "LocationAlpha needs access to Bluetooth to connect to your camera.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is used to automatically detect and track when you are out shooting photos, even when the app is in background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used to automatically detect and track when you are out shooting photos, even when the app is in background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to automatically detect and track when you are out shooting photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "location-services bluetooth-le arm64";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartoszcichecki.locationalpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E9FD83C2CCA2E6200251BC7 /* Build configuration list for PBXProject "LocationAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9FD84D2CCA2E6300251BC7 /* Debug */,
+				4E9FD84E2CCA2E6300251BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9FD84F2CCA2E6300251BC7 /* Build configuration list for PBXNativeTarget "LocationAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9FD8502CCA2E6300251BC7 /* Debug */,
+				4E9FD8512CCA2E6300251BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E1E88812CFFCA25009B8E93 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		4E4969B52CEA6CBA0080D2B4 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+		4EF59C922D06343700981AF6 /* XCRemoteSwiftPackageReference "CoreGPX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vincentneo/CoreGPX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+		4EF59C952D063C5800981AF6 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E1E88822CFFCA25009B8E93 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E1E88812CFFCA25009B8E93 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		4E4969B62CEA6CBA0080D2B4 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E4969B52CEA6CBA0080D2B4 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		4EF59C932D06343700981AF6 /* CoreGPX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EF59C922D06343700981AF6 /* XCRemoteSwiftPackageReference "CoreGPX" */;
+			productName = CoreGPX;
+		};
+		4EF59C962D063C5800981AF6 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EF59C952D063C5800981AF6 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4E9FD8392CCA2E6200251BC7 /* Project object */;
+}
