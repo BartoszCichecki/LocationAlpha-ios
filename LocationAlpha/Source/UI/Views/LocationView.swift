@@ -60,7 +60,7 @@ struct LocationView: View {
                     .bold()
                     .frame(maxWidth: .infinity, minHeight: 48)
             }
-            .buttonStyle(.glassProminent)
+            .adaptiveGlassProminentButtonStyle()
             .padding(.horizontal, 32)
         }
     }

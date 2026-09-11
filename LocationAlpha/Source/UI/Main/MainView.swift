@@ -75,7 +75,7 @@ struct MainView: View {
                         .bold()
                         .frame(maxWidth: .infinity, minHeight: 28)
                 }
-                .buttonStyle(.glassProminent)
+                .adaptiveGlassProminentButtonStyle()
                 .padding(.top, 4)
             }
             .padding(.vertical, 4)

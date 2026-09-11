@@ -40,7 +40,7 @@ struct KnownLocationsView: View {
                             .bold()
                             .padding(8)
                     }
-                    .glassEffect()
+                    .adaptiveGlassEffect()
                     .disabled(date.yesterday < earliestDate)
 
                     Spacer()
@@ -67,11 +67,11 @@ struct KnownLocationsView: View {
                             .bold()
                             .padding(8)
                     }
-                    .glassEffect()
+                    .adaptiveGlassEffect()
                     .disabled(date.tomorrow > latestDate)
                 }
                 .padding(8)
-                .glassEffect()
+                .adaptiveGlassEffect()
                 .padding(.horizontal, 20)
                 .padding(.bottom, 16)
             }
@@ -96,7 +96,7 @@ struct KnownLocationsView: View {
                             Text("Today")
                                 .bold()
                         }
-                        .glassEffect()
+                        .adaptiveGlassEffect()
                         .padding(.horizontal, 16)
 
                         Spacer()
@@ -109,7 +109,7 @@ struct KnownLocationsView: View {
                             Text("Close")
                                 .bold()
                         }
-                        .glassEffect()
+                        .adaptiveGlassEffect()
                         .padding(.horizontal, 16)
                     }
                     .padding(.bottom, 16)
@@ -185,7 +185,7 @@ private struct MapView: View {
                     .padding(.horizontal, 16)
                     .padding(.vertical, 8)
                     .foregroundStyle(.white)
-                    .glassEffect(.regular.tint(.accent))
+                    .adaptiveGlassEffect(tint: .accent)
                     .padding(.horizontal, 48)
                     .padding(.top, 16)
             }

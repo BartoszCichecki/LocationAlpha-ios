@@ -38,7 +38,7 @@ struct SetupStep: View {
                                     LinearGradient.accent
                                         .clipShape(RoundedRectangle(cornerRadius: 16))
                                 }
-                                .glassEffect(in: RoundedRectangle(cornerRadius: 16))
+                                .adaptiveGlassEffect(in: RoundedRectangle(cornerRadius: 16))
                                 .padding(.bottom, 32)
                         }
 
@@ -93,7 +93,7 @@ struct SetupStep: View {
                     .bold()
                     .frame(maxWidth: .infinity, minHeight: 48)
             }
-            .buttonStyle(.glassProminent)
+            .adaptiveGlassProminentButtonStyle()
             .disabled(isRunning)
         }
         .padding(.horizontal, 32)
