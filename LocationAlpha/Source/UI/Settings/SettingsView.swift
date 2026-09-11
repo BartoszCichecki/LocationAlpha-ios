@@ -133,6 +133,13 @@ struct SettingsView: View {
                             }
                         }
                 }
+                Link(destination: URL(string: "https://github.com/BartoszCichecki/LocationAlpha-ios")!) {
+                    HStack {
+                        Text("Check out on GitHub")
+                        Spacer()
+                        Image(systemName: "arrow.up.forward.app")
+                    }
+                }
                 Link(destination: URL(string: "https://locationalpha.com/support/")!) {
                     HStack {
                         Text("Support")
